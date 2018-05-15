@@ -1,6 +1,7 @@
 body {
     background-color: lightgray;
-    margin: 0%
+    margin: 0%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h1 {
@@ -21,24 +22,43 @@ header {
     color: #ffffff;
     background-color:#4aaaa5;
     float: left;
-    margin-left: 
+    margin: 0;
+    padding: 25px 0;
     
 }
 
 .topnav {
     width: 960px;
     border-width: 100px;
+    margin-left: 10%;
 }
 
 nav {
     float: right;
+    margin-left: 200px;
 }
 
 nav ul {
-    margin: 0;
-    margin-top: 30px;
-    padding: 0;
+    margin: 30px 0 0 50px;
+    padding-left: 50px;
     list-style: none;
+    text-decoration: none;
+}
+
+nav ul:link {
+    text-decoration: none;
+}
+
+nav ul:visited {
+    text-decoration: none;
+}
+
+nav ul:hover {
+    text-decoration: none;
+}
+
+nav ul:active {
+    text-decoration: none;
 }
 
 nav li {
@@ -50,14 +70,27 @@ nav li {
     color: #4aaaa5;
     border-bottom: 2px solid lightgray;
     margin: 25px;
-    padding-top: 25px;
+    padding: 25px 0px 25px 0px;
 }
 
 .container {
     background-color: #ffffff;
-    margin: 50px 100px 100px 75px;
+    margin: 50px 10% 100px 10%;
     border-width: 5px;
     
+}
+
+#p1 {
+    line-height: 30px;
+}
+
+#p2 {
+    line-height: 30px;
+}
+
+.profile-pic {
+    float: left;
+    margin: 25px;
 }
 
 .content {
@@ -68,5 +101,10 @@ footer {
     text-align: center;
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
-    
+    padding-bottom: 210px;
+    color: #ffffff;
+}
+
+#copyright {
+    padding-top: 100%;
 }
