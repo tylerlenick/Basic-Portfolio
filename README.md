@@ -1,2 +1,2 @@
-# Basiic-Portfolio
+# Basic-Portfolio
 Basic portfolio website
