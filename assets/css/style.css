@@ -13,12 +13,23 @@ h1 {
     font-family: 'Fjalla One', sans-serif;
 }
 
+a {
+    width: 100%;
+}
+
 h2 {
-    padding:0 0 15px 100px;
+    padding:10px 50px 15px 50px;
     background-color: #4aaaa5;
     color: #ffffff;
-
+    position: absolute;
+    width: 200px;
+    top: 210px;
+    left: 0;
+    margin-left: 100px;
+    text-align: center;
+    
 }
+
 
 header::after {
     content: '';
@@ -98,7 +109,7 @@ nav li {
     background-color: #ffffff;
     margin: 50px 10% 100px 10%;
     border-width: 5px;
-    height: 800px;
+    height: 700px;
     width: 80%;
     
 }
@@ -126,12 +137,20 @@ p {
     display: inline-block;
 }
 
+#github {
+    background-color: #4aaaa5;
+    padding: 10px 20px;
+    
+}
 
 
 .port-image {
     float: left;
-    margin: 3% 3% 0 3%;
+    margin: 5% 3% 0 3%;
     padding-left: 10%;
+    position: relative;
+    width: 200px;
+    height: 200px;
 
 }
 
@@ -165,7 +184,7 @@ input[type=text], select, textarea {
 
 .form-content {
     border-radius: 5px;
-    background-color: :#ffffff;
+    background-color: #ffffff;
     padding: 20px;
 }
 
