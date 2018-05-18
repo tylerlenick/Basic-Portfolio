@@ -108,6 +108,11 @@ p {
     display: inline-block;
 }
 
+input {
+    width: 50%;
+    margin: 0 10px;
+}
+
 footer {
     text-align: center;
     background-color: #666666;
@@ -118,4 +123,26 @@ footer {
 
 #copyright {
     padding-top: 100%;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 1%;
+    font-size: 20px;
+    padding: 5px 15px;
+    /* transition-duration: 1s; */
+    border: 0px;
+    width: 8%;
+}
+
+#submit:hover {
+    background-color:#ffffff;
+    color: #4aaaa5;
+    border: 1px groove #4aaaa5;
+    transition-duration: 1s;
+}
+
+textarea {
+    
 }
